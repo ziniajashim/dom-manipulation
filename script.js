@@ -12,6 +12,15 @@ textBtn.addEvenListener('click',function(){
     task2.appendChild(paragraph)
 })
 
-
+//task 2b
+function changeBGcolor(Event){
+    var body = document.getElementsByTagName('body')[0]
+    if(event.target.innerText == "Red"){
+        body.style.backgroundColor = 'red';
+    }
+    if(event.target.innerText == "Green"){
+        body.style.backgroundColor = 'green';
+    }
+}
 
 /* Task 4 using jQuery */
