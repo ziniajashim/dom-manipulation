@@ -23,4 +23,9 @@ function changeBGcolor(Event){
     }
 }
 
+//Task 2c
+function redirectToGoogle(){
+    window.location.assign('http://google.com')
+}
+
 /* Task 4 using jQuery */
